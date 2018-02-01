@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 ## Writing my first Python scripts.
 I've been told numerous times that I'm picky, but I believe that is just because I have high expectations.  That being said, I can only be picky if it’s something I truly understand.  My first Python scripts I will not be picky about, because I'm still learning the best way to accomplish a task. If you notice that I'm making it hard then it needs to be place let me know.

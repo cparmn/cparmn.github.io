@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+This is some information about me.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Now that you know a little bit about me
 
-### Contact me
+### Don't Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Don't Click The Link](mailto:dontclickthelink@clickthelink.com)

@@ -7,10 +7,10 @@ published: true
 
 This is some information about me.
 
-### More Information
+### More Information.......
 
 Now that you know a little bit about me
 
-### Don't Contact me
+### Contact me let me know what you think
 
-[Don't Click The Link](mailto:dontclickthelink@clickthelink.com)
+[DontClickTheLink](https://raw.githubusercontent.com/cparman/cparmn.github.io/images/Link.png)

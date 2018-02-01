@@ -13,4 +13,4 @@ Now that you know a little bit about me
 
 ### Contact me let me know what you think
 
-[DontClickTheLink](https://raw.githubusercontent.com/cparman/cparmn.github.io/images/Link.png)
+[DontClickTheLink](https://raw.githubusercontent.com/cparmn/cparmn.github.io/master/images/Link.png)

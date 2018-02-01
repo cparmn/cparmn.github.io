@@ -13,6 +13,7 @@ I’m running these scripts on the Carbon Black Response server, I was unable to
 ----
 ****
 
+Describe the functions?
 
 ```python
 #Python Code will go here

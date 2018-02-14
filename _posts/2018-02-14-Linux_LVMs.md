@@ -14,7 +14,7 @@ The process described below takes place after the disk has been added to the Hos
 
 -[Viewing Logical Volumes](2018-02-14-Linux_LVMs.md#viewing-logical-volumes "Viewing Logical Volumes")
 
-[Adding the disk to the LVM](2018-02-14-Linux_LVMs.md#Adding-the-disk-to-the-lvm "Adding the disk to the LVM")
+[Adding the disk to the LVM](2018-02-14-Linux_LVMs.md#adding-the-disk-to-the-lvm "Adding the disk to the LVM")
     
 
 ## Information Gathering 

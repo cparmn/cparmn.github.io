@@ -1,15 +1,15 @@
 ---
-published: true
+published: false
 ---
 # Adding a Disk to existing LVM
 
 Once a disk has been added to the Host Machine you can begin the process to create a partition and add it to the extisting logical volume group. 
 
 1.	Verify disk is attached to the system correctly, using the fdisk command 
-`fdisk -l \/dev\/mapper\/mpathf`
+`fdisk -l /dev/mapper/mpathf`
 
  Expected output.
-
+---
 ```
 Disk /dev/mapper/mpathf: 5497.6 GB, 5497558138880 bytes
 255 heads, 63 sectors/track, 668373 cylinders
@@ -22,7 +22,7 @@ Disk identifier: 0x00000000
 
 
 
-```bash
+```
 Command (m for help): l
 
  0  Empty           24  NEC DOS         81  Minix / old Lin bf  Solaris        

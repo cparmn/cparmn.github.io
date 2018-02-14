@@ -6,6 +6,13 @@ published: true
 Adding a disk to an existing LVM takes a two step approach as you first need to gather information about the current configuration.
 The process described below takes place after the disk has been added to the Host Machine.
 
+[Information Gathering](2018-02-14-Linux_LVMs.md#information-gathering "Information Gathering")
+	[Viewing Physical Volumes](2018-02-14-Linux_LVMs.md#viewing-physical-volumes "Viewing Physical Volumes")
+    [Viewing Volume Groups](2018-02-14-Linux_LVMs.md#viewing-volume-groups "Viewing Volume Groupsg")
+    [Viewing Logical Volumes](2018-02-14-Linux_LVMs.md#viewing-logical-volumes "Viewing Logical Volumes")
+[Adding the disk to the LVM](2018-02-14-Linux_LVMs.md#Adding-the-disk-to-the-lvm "Adding the disk to the LVM")
+    
+
 ## Information Gathering 
 Before working with a specific disk, you should verify disk is attached to the system correctly, using the `fdisk` command 
 In this case we know the Full path of the disk and I'll use the `fdisk -l /dev/mapper/mpathf` if you dont know the the disk you can use `fdisk -l` to view all disk 
@@ -131,7 +138,7 @@ Viewing Logical Volumes
 
 Gathering this information will provide you with all the information you need to being added the disk to the LVM.
 
-Adding the disk to the LVM.
+Adding the disk to the LVM
 ---
 In order to add a disk to an LVM you need to Initialize a physical volume to be used by LVM.  This is accomplished with the `pvcreate` command as shown below.  The disk will be the same disk you verified with the `fdisk` command in this case, `/dev/mapper/mpathf` due to the fact that I'm using multipathing 
 

@@ -131,8 +131,8 @@ Viewing Logical Volumes
 
 Gathering this information will provide you with all the information you need to being added the disk to the LVM.
 
-###Adding the disk to the LVM.
-
+Adding the disk to the LVM.
+---
 In order to add a disk to an LVM you need to Initialize a physical volume to be used by LVM.  This is accomplished with the `pvcreate` command as shown below.  The disk will be the same disk you verified with the `fdisk` command in this case, `/dev/mapper/mpathf` due to the fact that I'm using multipathing 
 
 `pvcreate /dev/mapper/mpathf` 

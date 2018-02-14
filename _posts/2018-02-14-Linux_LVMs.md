@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Adding a Disk to existing LVM
 

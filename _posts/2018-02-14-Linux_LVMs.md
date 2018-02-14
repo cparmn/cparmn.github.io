@@ -11,15 +11,15 @@ Before working with a specific disk, you should verify disk is attached to the s
 In this case we know the Full path of the disk and I'll use the `fdisk -l /dev/mapper/mpathf` if you dont know the the disk you can use `fdisk -l` to view all disk 
 
 The expected output will show the disk, with no partitions created. 
----
-``
+
+```bash
 Disk /dev/mapper/mpathf: 5497.6 GB, 5497558138880 bytes
 255 heads, 63 sectors/track, 668373 cylinders
 Units = cylinders of 16065 * 512 = 8225280 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 Disk identifier: 0x00000000
-``
+```
 
 
 You'll also need to understand the information of the LVM.  This can be accomplished by looking at three different parts of LVM.  

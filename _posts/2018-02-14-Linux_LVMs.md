@@ -42,7 +42,7 @@ You'll also need to understand the information of the LVM.  This can be accompli
   Volume Groups are a collection of Physical VOlumes This allows multiple Physical volumes to exist in a single Volume Group. 
   To view Volume Group information use `vgs` or `vgdisplay`
 3. Logical Volumes (LV)
-  Logical Volume exist inside of a volume group, you're allowed to have multiple Logical Volumes within a single Volume group.  T
+  Logical Volume exist inside of a volume group, you're allowed to have multiple Logical Volumes within a single Volume group.  
 
 Viewing Physical Volumes 
 ---

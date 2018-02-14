@@ -136,7 +136,8 @@ Gathering this information will provide you with all the information you need to
 In order to add a disk to an LVM you need to Initialize a physical volume to be used by LVM.  This is accomplished with the `pvcreate` command as shown below.  The disk will be the same disk you verified with the `fdisk` command in this case, `/dev/mapper/mpathf` due to the fact that I'm using multipathing 
 
 `pvcreate /dev/mapper/mpathf` 
-``` Physical volume "/dev/mapper/mpathf" successfully created
+``` 
+Physical volume "/dev/mapper/mpathf" successfully created
 ```
 
 In order to verify the Physical Volume was created use the `lvmdiskscan` command as shown below.
@@ -157,7 +158,7 @@ You'll notice that the new disk shows up at the bottom of the list.  Now you can
   Volume group "HotStorage" successfully extended
 ```
 
-Now you can verify this was added successfuly by using the `vgs` command
+Now you can verify this was added successfully by using the `vgs` command
 `vgs`
 ```
   VG             #PV #LV #SN Attr   VSize   VFree
@@ -245,7 +246,7 @@ realtime =none                   extsz=4096   blocks=0, rtextents=0
 data blocks changed from 1476392960 to 2818569216
 ```
 
-Now running the `df` command we can see the size is 11 Tera-bytes. 
+Now running the `df` command we can see the size is 11 Terabytes. 
 
 `df -h`
 ```

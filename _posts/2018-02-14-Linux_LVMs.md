@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Adding a Disk to existing LVM
 
@@ -51,4 +51,3 @@ Command (m for help): l
 1c  Hidden W95 FAT3 80  Old Minix       be  Solaris boot    ff  BBT            
 1e  Hidden W95 FAT1
 ```
-

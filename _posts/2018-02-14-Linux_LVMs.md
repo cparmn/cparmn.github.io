@@ -7,9 +7,13 @@ Adding a disk to an existing LVM takes a two step approach as you first need to 
 The process described below takes place after the disk has been added to the Host Machine.
 
 [Information Gathering](2018-02-14-Linux_LVMs.md#information-gathering "Information Gathering")
-	[Viewing Physical Volumes](2018-02-14-Linux_LVMs.md#viewing-physical-volumes "Viewing Physical Volumes")
-    [Viewing Volume Groups](2018-02-14-Linux_LVMs.md#viewing-volume-groups "Viewing Volume Groupsg")
-    [Viewing Logical Volumes](2018-02-14-Linux_LVMs.md#viewing-logical-volumes "Viewing Logical Volumes")
+
+-[Viewing Physical Volumes](2018-02-14-Linux_LVMs.md#viewing-physical-volumes "Viewing Physical Volumes")
+
+-[Viewing Volume Groups](2018-02-14-Linux_LVMs.md#viewing-volume-groups "Viewing Volume Groupsg")
+
+-[Viewing Logical Volumes](2018-02-14-Linux_LVMs.md#viewing-logical-volumes "Viewing Logical Volumes")
+
 [Adding the disk to the LVM](2018-02-14-Linux_LVMs.md#Adding-the-disk-to-the-lvm "Adding the disk to the LVM")
     
 
